@@ -49,3 +49,31 @@
     width: 100%;
     height: 4.5rem;
 }
+.my-account-content{
+    display: none;
+    position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px var(--color);
+  z-index: 1;
+}
+
+.my-account-content a {
+    float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.my-account-content a:hover {
+    text-decoration: none;
+    color: var(--blue100);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.dropdown:hover .my-account-content {
+    display: block;
+}
